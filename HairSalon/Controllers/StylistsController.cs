@@ -8,16 +8,17 @@ namespace HairSalon.Controllers
 {
   public class StylistsController : Controller
   {
-    private readonly ToDoListContext _db;
+    private readonly HairSalonContext _db;
 
-    public HairSalonController(HairSalonContext db)
+    public StylistsController(HairSalonContext db)
     {
       _db = db;
     }
 
     public ActionResult Index()
     {
-      return View();
+      List<Stylist> model = _db.Stylists.ToList();
+      return View(model);
     }
   }
 }
