@@ -5,7 +5,7 @@
 #### _**By Diego Serafico**_
 
 <p align="center">
-  <img src="HairSalom/wwwroot/img/dataschema.png">  
+  <img src="HairSalon/wwwroot/img/dataschema.png">  
 </p>
 
 ## Technologies Used
